@@ -38,3 +38,32 @@ ES6允许使用第二个参数作为正则表达式修饰符，返回结果会�
 
 字符串的正则表达式：match()、replace()、search()、split()
 
+10.数值的扩展
+
+(1)二进制和八进制表示法： ES6提供了二进制和八进制新写法，二进制前缀0b/0B，八进制前缀0o/0O。转换为十进制使用Number()方法。
+
+(2)Number.isFinite()：检查一个数值是否为有限的；
+Number.isNaN()：检查一个值是否为NaN；
+Number.parseInt()：转换为整型；
+Number.parseFloat()：转换为float类型；
+Number.isInteger()：判断一个值是否为整数；
+Number.EPSILON：常量，表示1与大于1的最小浮点数之间的差，用于处理浮点数之间的运算；
+Number.MAX_SAFE_INTEGER和Number.MIN_SAFE_INTEGER：整数上下限（-2^53到2^53）；
+Number.isSafeInteger()：判断一个整数是否在上面变量的范围内。
+
+(3) Math对象
+Math.trunc():去除小数的小数部分，返回整数部分；
+Math.sign()：判断一个数是正数(+1)、负数(-1)还是零(0)，其他返回NaN；
+Math.cbrt()：计算一个数的立方根；
+Math.clz32()：返回一个数的32位无符号整数形式有多少个前导0；
+Math.imul()：返回两个数以32位带符号整数形式相乘的结果；
+Math.fround()：返回一个数的单精度浮点数形式；
+Math.hypot()：返回所有参数的平方和的平方根；
+对数；双曲函数；
+Math.signbit()：判断一个数是否有符号位，NaN返回false，-0返回true，负值返回true，其他返回false；
+
+(4)指数运算符(**)
+
+(5)Integer数据类型：取消精度对整数的影响，使用后缀n，运算方法和普通运算方法一致，/运算会舍去小数部分。
+
+
